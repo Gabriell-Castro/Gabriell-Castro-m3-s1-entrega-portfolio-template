@@ -1,0 +1,12 @@
+@media screen and (max-width: 870px) {
+  .sectionAbout {
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    height: auto;
+    p {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.SectionProjects {
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+  height: 562px;
+  margin: 0 auto;
+  gap: 20px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: calc(50% - 8px);
+    li {
+      display: flex;
+      width: 439px;
+      justify-content: space-between;
+      padding: 10px 15px;
+      border-radius: 12px;
+      border: 1px solid white;
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        button {
+          background-color: transparent;
+          font-size: 15px;
+          width: 100px;
+          letter-spacing: 1px;
+          color: #6880ff;
+        }
+      }
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    li:hover {
+      background-color: rgba(54, 54, 54, 0.47);
+      cursor: pointer;
+    }
+  }
+}

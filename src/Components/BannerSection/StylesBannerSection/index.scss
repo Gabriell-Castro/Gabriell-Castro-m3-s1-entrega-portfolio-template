@@ -1,0 +1,32 @@
+* {
+  border: none;
+}
+.sectionBannerSection {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    span {
+      color: rgb(79, 93, 255);
+    }
+    h1 {
+      font-size: 3.5rem;
+      span {
+        display: inline-block;
+      }
+    }
+    button {
+      padding: 10px;
+      background-color: rgb(79, 93, 255);
+      border-radius: 12px;
+      width: 150px;
+      color: white;
+    }
+  }
+}

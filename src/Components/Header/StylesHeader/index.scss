@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  color: white;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 73%;
+  height: 90px;
+  margin: 0 auto;
+  h1 {
+    font-size: 22px;
+  }
+  .listNavHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 256px;
+    gap: 20px;
+    li {
+      a {
+        color: white;
+        padding: 20px;
+      }
+    }
+  }
+  button {
+    color: white;
+    padding: 12px;
+    background-color: rgb(79, 93, 255);
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+
+    width: 130px;
+  }
+}

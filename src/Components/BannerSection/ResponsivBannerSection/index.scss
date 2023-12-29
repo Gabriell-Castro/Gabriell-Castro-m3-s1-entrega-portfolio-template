@@ -1,0 +1,26 @@
+@media screen and (max-width: 870px) {
+  .sectionBannerSection {
+    margin-top: 80px;
+    flex-direction: column;
+    gap: 100px;
+    div {
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-size: 2.5rem;
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 639px) {
+  .sectionBannerSection {
+    div {
+      h1 {
+        font-size: 2px;
+      }
+    }
+  }
+}
